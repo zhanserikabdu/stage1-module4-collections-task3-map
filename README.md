@@ -34,8 +34,7 @@ upper - 1
 
 Implement the program which gets `Map<Integer, String>` as parameter and returns a `Map<String, Integer>` where the keys
 and values are swapped. If in the source map `Map<Integer, String>` there are the same values for different keys, in the
-new `Map<String, Integer>` this
-value should map to a smaller key value.
+new `Map<String, Integer>` this value should map to a smaller key value.
 
 ```
 public class KeyValueSwapper {
@@ -65,7 +64,7 @@ three - 3
 
 ## 3. Function value finder
 
-Implement the program which gets `List<Integer>` and `required value` as parameter, creates Map<Integer, Integer> and
+Implement the program which gets `List<Integer>` and `required value` as parameter, creates `Map<Integer, Integer>` and
 determines if `required value` is present among `Map values`.
 
 The `key of Map` - element from `List<Integer>`, `value` - value of function `5x+2` for element from `List<Integer>`
